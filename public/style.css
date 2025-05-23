@@ -1,0 +1,290 @@
+/* style.css */
+
+/* Tailwind 基础引入 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   全局和基础样式
+   ========================================================================== */
+body {
+    @apply bg-gray-900 text-white;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes twinkle {
+    0% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(0.5); }
+}
+
+/* ==========================================================================
+   导航和布局相关样式
+   ========================================================================== */
+header {
+    @apply fixed top-0 w-full bg-black/30 backdrop-blur-md z-40;
+}
+
+.fullscreen-cursor-hidden * {
+    cursor: none !important;
+}
+
+#themeCanvas {
+    @apply fixed inset-0 w-full h-full z-[-1] pointer-events-none;
+}
+
+/* ==========================================================================
+   颜色选择和主题选项样式
+   ========================================================================== */
+.color-container {
+    @apply flex flex-col items-center bg-white/5 backdrop-blur-sm rounded-xl p-4 transition-transform hover:scale-105;
+    width: 100px;
+}
+
+.color-container-a {
+    @apply flex flex-col items-center bg-white/5 backdrop-blur-sm rounded-xl p-4 transition-transform hover:scale-105;
+    width: auto;
+    min-width: 80px;
+    max-width: 120px;
+}
+
+.color-option {
+    @apply w-16 h-16 rounded-lg cursor-pointer transition-all duration-300 shadow-lg hover:shadow-xl;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   音效控制样式
+   ========================================================================== */
+.sound-control {
+    @apply flex flex-col items-center justify-center w-[100px];
+}
+
+.sound-control .icon {
+    @apply w-6 h-6 text-white cursor-pointer transition-colors hover:text-gray-200;
+}
+
+.volume-slider {
+    @apply w-full;
+    accent-color: #3b82f6;
+}
+
+.play-btn {
+    @apply mt-2 p-2 rounded-full bg-gray-700 hover:bg-gray-600 transition-colors;
+}
+
+/* ==========================================================================
+   按钮和表单元素样式
+   ========================================================================== */
+#fullscreenBtn {
+    @apply flex items-center justify-center;
+}
+
+#fullscreenBtn svg {
+    @apply text-white transition-colors hover:text-gray-300;
+}
+
+select,
+input[type="number"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:hover,
+input[type="number"]:hover,
+button#downloadBtn:hover {
+    @apply text-white bg-gray-700;
+}
+
+select:focus,
+input[type="number"]:focus {
+    @apply border-gray-600 ring-2 ring-blue-500;
+}
+
+/* ==========================================================================
+   冥想徽章样式
+   ========================================================================== */
+#badgeContainer {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center max-w-full;
+}
+
+.color-container[class*="badge-"] {
+    @apply flex flex-col items-center bg-white/5 backdrop-blur-sm rounded-xl p-4 transition-transform hover:scale-105;
+    width: 150px;
+    min-height: 180px;
+}
+
+.badge-icon {
+    @apply w-12 h-12 rounded-full flex items-center justify-center text-white font-bold;
+}
+
+.color-container[class*="badge-"] p:first-of-type {
+    @apply text-sm font-medium mt-2;
+}
+
+.color-container[class*="badge-"] p:last-of-type {
+    @apply text-xs text-gray-400 text-center;
+}
+
+.badge-7-day-streak .badge-icon {
+    @apply bg-gradient-to-br from-yellow-400 to-orange-500 animate-pulse;
+}
+
+.badge-30-minute-master .badge-icon {
+    @apply bg-gradient-to-br from-blue-500 to-cyan-500;
+    animation: spin 4s linear infinite;
+}
+
+.badge-zen-beginner .badge-icon {
+    @apply bg-gradient-to-br from-green-400 to-lime-500;
+    animation: bounce 2s infinite;
+}
+
+.badge-10-day-streak .badge-icon {
+    @apply bg-gradient-to-br from-red-500 to-pink-500 animate-pulse;
+}
+
+.badge-hour-of-peace .badge-icon {
+    @apply bg-gradient-to-br from-purple-500 to-indigo-500;
+    animation: glow 3s ease-in-out infinite;
+}
+
+.badge-single-session-star .badge-icon {
+    @apply bg-gradient-to-br from-amber-400 to-yellow-600;
+    animation: twinkle 1.5s infinite;
+}
+
+/* ==========================================================================
+   无徽章提示样式
+   ========================================================================== */
+#noBadgesPrompt {
+    @apply flex flex-col items-center gap-4 text-center text-gray-400 p-4;
+}
+
+#noBadgesPrompt.hidden {
+    display: none !important;
+}
+
+#noBadgesPrompt svg {
+    @apply w-12 h-12 text-gray-400 animate-bounce;
+}
+
+#noBadgesPrompt p:first-of-type {
+    @apply text-lg font-medium text-white;
+}
+
+#noBadgesPrompt p:last-of-type {
+    @apply text-sm max-w-xs;
+}
+
+/* ==========================================================================
+   动画定义
+   ========================================================================== */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 5px rgba(139, 92, 246, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.8);
+    }
+}
+
+/* ==========================================================================
+   响应式调整
+   ========================================================================== */
+@media (max-width: 640px) {
+    .sound-control {
+        @apply w-[80px];
+    }
+}
+
+/* ==========================================================================
+    添加下拉菜单动画
+   ========================================================================== */
+
+/* 优化下拉菜单动画 */
+#moreThemesMenu {
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    opacity: 0;
+    transform: translateY(4px);
+}
+
+.group:hover #moreThemesMenu {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#moreThemesTrigger svg {
+    transition: transform 0.2s ease-in-out;
+}
+
+.group:hover #moreThemesTrigger svg {
+    transform: rotate(180deg);
+}
+
+/* 移动端适配 */
+@media (hover: none) {
+    #moreThemesMenu {
+        position: static;
+        width: 100%;
+        display: none;
+    }
+
+    .group:active #moreThemesMenu {
+        display: block;
+    }
+}
+
+/* ==========================================================================
+   自定义颜色项样式优化
+   ========================================================================== */
+.custom-color-item {
+    @apply flex flex-col items-center relative bg-white/5 backdrop-blur-sm rounded-xl p-4 transition-transform hover:scale-105;
+    width: 120px;
+}
+
+.custom-color-item.selected {
+    @apply ring-2 ring-blue-500;
+}
+
+.color-name {
+    @apply text-sm text-gray-300 mt-2 block text-center truncate;
+    max-width: 100px; /* 与颜色选择器宽度一致 */
+}
+
+.edit-theme-name {
+    @apply px-2 py-1 rounded-lg bg-gray-800 text-white border border-gray-600 w-full text-center focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all;
+    max-width: 100px; /* 与颜色选择器对齐 */
+    font-size: 0.875rem; /* 14px */
+}
+
+.delete-color-btn {
+    @apply absolute top-1 right-1 p-1 rounded-full bg-gray-700 hover:bg-red-600 transition-colors;
+}

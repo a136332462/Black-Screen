@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  
+  /* 配色规范中定义的颜色 */
+  --primary-color: #3A6FF8; /* 品牌主色（冷蓝） */
+  --main-bg: #000000; /* 主背景色 */
+  --secondary-bg: #111111; /* 次级背景色 */
+  --content-bg: #1A1A1A; /* 内容块背景色 */
+  --main-text: #FFFFFF; /* 主文字 */
+  --secondary-text: #B0B3B8; /* 辅助文字 */
+  --hover-bg: #2A2A2A; /* 鼠标悬浮背景 */
+}
+
+/* 新增成就徽章动画 */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 5px rgba(58, 111, 248, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(58, 111, 248, 0.8); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* 新增成就徽章样式 */
+.badge-meditation-master .badge-icon {
+  @apply bg-gradient-to-br from-[#3A6FF8] to-[#a855f7];
+}
+
+.badge-night-guardian .badge-icon {
+  @apply bg-gradient-to-br from-[#111111] to-[#3A6FF8];
+}
+
+.badge-fullscreen-explorer .badge-icon {
+  @apply bg-gradient-to-br from-[#1A1A1A] to-[#3A6FF8];
+}
+
+.badge-focus-improvement .badge-icon {
+  @apply bg-gradient-to-br from-[#3A6FF8] to-[#22c55e];
+}
+
+.badge-continuous-progress .badge-icon {
+  @apply bg-gradient-to-br from-[#3A6FF8] to-[#eab308];
+}
+
+/* 成就解锁动画 */
+.achievement-unlocked {
+  animation: unlockPulse 1s ease-in-out;
+}
+
+@keyframes unlockPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* 成就分类样式 */
+.achievement-category {
+  @apply text-[#B0B3B8] text-sm font-medium mb-2 border-b border-[#3A6FF8]/20 pb-1;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--main-bg);
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes twinkle {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.8; }
+  100% { opacity: 0; transform: scale(0.5); }
+}
+
+/* 添加科技感扫描线动画 */
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, rgba(58, 111, 248, 0.5), transparent);
+  z-index: 10;
+  pointer-events: none;
+  animation: scan 3s linear infinite;
+}
+
+@keyframes scan {
+  0% { top: 0; opacity: 0; }
+  5% { opacity: 0.8; }
+  50% { opacity: 0.3; }
+  95% { opacity: 0.8; }
+  100% { top: 100%; opacity: 0; }
+}
+
+/* 颜色选择和主题选项样式 */
+.color-container {
+  @apply flex flex-col items-center bg-white/5 backdrop-blur-sm rounded-xl p-4 transition-transform hover:scale-105;
+  width: 100px;
+  border: 1px solid rgba(58, 111, 248, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.color-option {
+  @apply w-16 h-16 rounded-lg cursor-pointer transition-all duration-300 shadow-lg hover:shadow-xl;
+  object-fit: cover;
+  border: 1px solid rgba(58, 111, 248, 0.3);
+}
+
+.fullscreen-cursor-hidden * {
+  cursor: none !important;
+}
+
+#moreThemesTrigger svg {
+  transition: transform 0.2s ease-in-out;
+  color: var(--primary-color);
+}
+
+.group:hover #moreThemesTrigger svg {
+  transform: rotate(180deg);
+}
+
+/* 按钮样式统一 */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--main-text);
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: all 0.6s ease;
+}
+
+.btn-primary:hover {
+  background-color: #547DFF;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(58, 111, 248, 0.3);
+}
+
+.btn-primary:hover::after {
+  left: 100%;
+}
+
+/* 卡片样式 */
+.tech-card {
+  background-color: var(--content-bg);
+  border: 1px solid rgba(58, 111, 248, 0.1);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-color: rgba(58, 111, 248, 0.3);
+}
+
+.pulse-animation {
+  animation: pulse-blue 2s infinite;
+}
+
+.pulse-animation {
+  animation: pulse-blue 2s infinite;
+}
+
+.pulse-animation {
+  animation: pulse-blue 2s infinite;
+}
+
+/* 页面过渡动画 */
+.page-transition {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,4 @@
+# robots.txt generated at https://www.sojson.com/robots/
+User-agent: *
+Disallow:
+Sitemap: https://www.blacksscreen.com/sitemap.xml
