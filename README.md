@@ -1,103 +1,117 @@
-# GitBase
-
-[GitBase](https://gitbase.app/) is an open-source dynamic website solution without a traditional database, built with Next.js, Tailwind CSS, and Shadcn/UI. It leverages GitHub as a content management system, providing a seamless way to create and manage website content.
-
-![GitBase](https://toimg.xyz/file/5aa892c8e8385232fcdf3.png)
 
 
-## Deploy on Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fqiayue%2Fgitbase&project-name=GitBase&repository-name=GitBase&external-id=https%3A%2F%2Fgithub.com%2Fqiayue%2Fgitbase%2Ftree%2Fmain)
 
 
-## Features
+# BlackScreen
 
-- **Database-free Architecture**: Utilizes GitHub for content storage and management.
-- **Dynamic Content**: Renders content dynamically using Next.js server-side rendering.
-- **Markdown Support**: Write your content in Markdown format for easy editing and version control.
-- **Admin Interface**: Built-in admin panel for content management.
-- **Responsive Design**: Fully responsive design using Tailwind CSS.
-- **SEO Friendly**: Optimized for search engines with dynamic metadata.
-- **Easy Deployment**: Simple deployment process to Vercel.
+[BlackScreen](https://www.blacksscreen.com/) 是一个创新的在线工具，提供一键式全屏体验，适用于演示、护眼、OLED屏幕保护和节省电池。
 
-## Prerequisites
+![BlackScreen](https://www.blacksscreen.com/images/icon.webp)
 
-- Node.js (version 14 or later)
-- npm (comes with Node.js)
-- Git
-- GitHub account
-- Vercel account (for deployment)
+## 功能特点
 
-## Installation
+- **一键全屏**：使用空格键快速进入全屏模式，简单直观
+- **多种主题**：包括纯色背景、Aurora（极光）、Deep Ocean（深海）、Starfield（星空）等视觉主题
+- **时钟主题**：提供数字时钟、二进制时钟、波浪时钟和追踪时钟等多种时钟显示
+- **高分辨率支持**：支持高达8K的显示输出，确保各种设备上的流畅视觉体验
+- **成就系统**：通过使用不同功能解锁成就，增强用户体验
+- **休息提醒**：帮助用户保持专注并保护眼睛健康
+- **国际化支持**：支持英语、中文、德语、法语、日语和韩语
+- **响应式设计**：完全适配各种设备尺寸
+- **暗黑模式**：默认暗色主题，减少眼睛疲劳
 
-1. Clone the repository:
+## 使用场景
+
+- **演示辅助**：在演讲和教学中作为背景屏幕
+- **护眼工具**：减少蓝光，保护视力
+- **OLED屏幕保护**：防止屏幕烧屏
+- **节省电池**：黑色背景减少能耗
+- **冥想计时器**：提供专注和放松的环境
+- **像素测试**：检测屏幕坏点
+- **摄影照明**：作为摄影辅助工具
+
+## 技术栈
+
+- **Next.js 14**：采用App Router架构，支持服务端渲染(SSR)和静态站点生成(SSG)
+- **React 18**：使用函数式组件和React Hooks
+- **Tailwind CSS**：使用JIT编译模式，支持响应式设计和暗黑模式
+- **Shadcn/UI**：基于Radix UI原语构建的组件库
+- **TypeScript**：提供类型安全保障
+- **国际化**：使用Next.js 14官方国际化方案
+
+## 性能优化
+
+BlackScreen注重性能优化，确保用户获得流畅的体验：
+
+- **Core Web Vitals优化**：LCP < 2.5秒，INP < 200毫秒，CLS < 0.1
+- **资源优化**：实现代码分割、懒加载和图像优化
+- **缓存策略**：合理设置浏览器缓存和服务端缓存
+
+## 安装与开发
+
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/yourusername/blackscreen.git
+   cd blackscreen
    ```
-   git clone https://github.com/qiayue/gitbase.git
-   cd gitbase
-   ```
 
-2. Install dependencies:
-   ```
+2. 安装依赖：
+   ```bash
    npm install
    ```
 
-3. Create a `.env.local` file in the root directory and add the following:
-   ```
-   GITHUB_TOKEN=your_github_personal_access_token
-   GITHUB_OWNER=your_github_username
-   GITHUB_REPO=your_repo_name
-   ACCESS_PASSWORD=your_secure_access_password
-   ```
+3. 创建`.env.local`文件并添加必要的环境变量
 
-4. Set up your GitHub repository:
-   - Create a new repository on GitHub
-   - Create two folders in the repository: `data/json` and `data/md`
-   - In `data/json`, create a file named `resources.json` with an empty array: `[]`
-
-5. Run the development server:
-   ```
+4. 启动开发服务器：
+   ```bash
    npm run dev
    ```
 
-Visit `http://localhost:3000` to see your GitBase instance running locally.
+5. 访问`http://localhost:3000`查看本地运行的BlackScreen实例
 
-## Deployment
+## 部署
 
-1. Push your code to GitHub.
-2. Log in to Vercel and create a new project from your GitHub repository.
-3. Configure the environment variables in Vercel:
-   - `GITHUB_TOKEN`
-   - `GITHUB_OWNER`
-   - `GITHUB_REPO`
-   - `ACCESS_PASSWORD`
-4. Deploy the project.
+1. 构建项目：
+   ```bash
+   npm run build
+   ```
 
-For a detailed deployment guide, please refer to our [Installation and Deployment Guide](https://gitbase.app/posts/gitbase-install-guide).
+2. 启动生产服务器：
+   ```bash
+   npm start
+   ```
 
-## Usage
+或者使用Vercel一键部署：
 
-- Access the admin panel by navigating to `/admin` and using your `ACCESS_PASSWORD`.
-- Create and edit articles through the admin interface.
-- Manage resources in the admin panel.
-- All changes are automatically synced with your GitHub repository.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fblackscreen)
 
-## Contributing
+## 贡献指南
 
-We welcome contributions to GitBase! Please read our [Contributing Guide](https://gitbase.app/posts/how-to-contributing-to-gitbase) for details on our code of conduct and the process for submitting pull requests.
+我们欢迎对BlackScreen的贡献！如果您想参与项目开发，请遵循以下步骤：
 
-## License
+1. Fork仓库
+2. 创建您的特性分支：`git checkout -b feature/amazing-feature`
+3. 提交您的更改：`git commit -m 'Add some amazing feature'`
+4. 推送到分支：`git push origin feature/amazing-feature`
+5. 提交Pull Request
 
-GitBase is open-source software licensed under the [MIT license](https://github.com/qiayue/gitbase/?tab=MIT-1-ov-file).
+## 许可证
 
-## Support
+BlackScreen是开源软件，基于[MIT许可证](LICENSE)发布。
 
-If you encounter any issues or have questions, please file an issue on the GitHub repository.
+## 联系我们
 
-## Acknowledgements
+如果您遇到任何问题或有任何疑问，请通过以下方式联系我们：
 
-GitBase is built with the following open-source libraries:
+- **网站**：[https://www.blacksscreen.com](https://www.blacksscreen.com)
+- **邮箱**：[blacksscreenteam@gmail.com](mailto:blacksscreenteam@gmail.com)
+
+## 致谢
+
+BlackScreen基于以下开源库构建：
 - [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Shadcn/UI](https://ui.shadcn.com/)
 
-We are grateful to the maintainers and contributors of these projects.
+我们感谢这些项目的维护者和贡献者。

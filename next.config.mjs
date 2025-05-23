@@ -2,7 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.blacksscreen.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
     unoptimized: true,
   },
   async rewrites() {
@@ -33,12 +40,8 @@ const nextConfig = {
       }
     ]
   },
-  // 添加以下配置
   experimental: {
-    optimizeCss: true,
-    optimizeImages: true,
-    scrollRestoration: true,
-  }
+  },
 }
 
 export default nextConfig;
