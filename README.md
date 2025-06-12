@@ -6,7 +6,7 @@
 
 [BlackScreen](https://www.blacksscreen.com/) 是一个创新的在线工具，提供一键式全屏体验，适用于演示、护眼、OLED屏幕保护和节省电池。
 
-![BlackScreen](https://www.blacksscreen.com/images/icon.webp)
+![BlackScreen](https://www.blacksscreen.com/images/blackScreen.webp)
 
 ## 功能特点
 
@@ -37,7 +37,7 @@
 - **Tailwind CSS**：使用JIT编译模式，支持响应式设计和暗黑模式
 - **Shadcn/UI**：基于Radix UI原语构建的组件库
 - **TypeScript**：提供类型安全保障
-- **国际化**：使用Next.js 14官方国际化方案
+- **国际化**：使用Next.js 14官方国际化方案,支持中文、英文、日语三种语言
 
 ## 性能优化
 
@@ -115,3 +115,4 @@ BlackScreen基于以下开源库构建：
 - [Shadcn/UI](https://ui.shadcn.com/)
 
 我们感谢这些项目的维护者和贡献者。
+
