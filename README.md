@@ -106,6 +106,19 @@ BlackScreen是开源软件，基于[MIT许可证](LICENSE)发布。
 - **网站**：[https://www.blacksscreen.com](https://www.blacksscreen.com)
 - **邮箱**：[blacksscreenteam@gmail.com](mailto:blacksscreenteam@gmail.com)
 
+## 打赏
+
+如果您觉得BlackScreen对您有帮助，可以通过以下方式支持我们：
+
+### 微信打赏
+
+![微信收款码]([微信收款二维码图片链接])
+
+### 支付宝打赏
+
+![支付宝收款码]([支付宝收款二维码图片链接])
+
+
 ## 致谢
 
 BlackScreen基于以下开源库构建：
@@ -115,4 +128,5 @@ BlackScreen基于以下开源库构建：
 - [Shadcn/UI](https://ui.shadcn.com/)
 
 我们感谢这些项目的维护者和贡献者。
+
 
