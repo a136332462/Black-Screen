@@ -111,18 +111,18 @@ BlackScreen是开源软件，基于[MIT许可证](LICENSE)发布。
 如果您觉得BlackScreen对您有帮助，可以通过以下方式支持我们：
 
 ### Buy Me a Coffee（国际用户）
-[![Buy Me a Coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/quinnteam)
+❤️[![Buy Me a Coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/quinnteam)
 
 ### PayPal（国际用户）
-[![PayPal](https://www.blacksscreen.com/images/paypal.png)](https://paypal.me/Quinn1102?country.x=C2&locale.x=zh_XC)
+❤️[![PayPal](https://www.blacksscreen.com/images/paypal.png)](https://paypal.me/Quinn1102?country.x=C2&locale.x=zh_XC)
 
 ### 微信打赏
 
-![微信收款码](https://www.blacksscreen.com/images/wechat.jpg)
+❤️![微信收款码](https://www.blacksscreen.com/images/wechat.jpg)
 
 ### 支付宝打赏
 
-![支付宝收款码](https://www.blacksscreen.com/images/alipay.jpg)
+❤️![支付宝收款码](https://www.blacksscreen.com/images/alipay.jpg)
 
 ## 致谢
 
