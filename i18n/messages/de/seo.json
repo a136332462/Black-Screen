@@ -1,0 +1,44 @@
+{
+  "SEO": {
+    "Home": {
+      "title": "BlackScreen: Kostenloses Online-Vollbild-Tool - für Fokus, OLED & Präsentationen",
+      "description": "BlackScreen ist ein kostenloses, werbefreies Vollbild-Tool für Fokus, OLED-Bildschirmschutz, saubere Präsentationen. Einfach zu bedienen, unterstützt 8K-Hochauflösungsdownloads, funktioniert online und offline und optimiert Ihr Bildschirmerlebnis perfekt.",
+      "keywords": "Schwarzbild-Tool, Vollbild-Präsentation, Augenschutzmodus, OLED-Schutz, Stromspar-Tool, Online-Schwarzbild, kostenloses Tool, Bildschirmverwaltung, werbefreies Tool, Ein-Klick-Vollbild, BlackScreen, Präsentationsbildschirm"
+    },
+    "ClockThemes": {
+      "title": "12 Uhr-Themes: Digital, Binär & Wellenuhren | BlackScreen",
+      "description": "Entdecken Sie schöne Vollbild-Uhr-Themes einschließlich Digitaluhren, Binäruhren und Wellenuhren. Perfekt für konzentriertes Arbeiten, Präsentationen oder Umgebungsbildschirme. Ein-Klick-Vollbildstart, werbefreies Erlebnis, steigert Arbeitseffizienz und visuelles Vergnügen.",
+      "keywords": "Vollbild-Uhr, Digitaluhr, Binäruhr, Wellenuhr, Fokus-Timer, Präsentationsbildschirm, Produktivitätstool, Umgebungsdisplay, Zeitdisplay-Tool, BlackScreen Uhr, Arbeits-Timer, Vollbild-Timer"
+    },
+    "CoolThemes": {
+      "title": "12 dynamische visuelle Themes: Aurora, Starfield & Tiefes Meer | BlackScreen",
+      "description": "Erleben Sie 12 sorgfältig gestaltete dynamische visuelle Themes einschließlich Aurora-Himmel, tiefe Meereswelten und Starfield-Universen. Ein-Klick-Vollbild, werbefreies Erlebnis, perfekt für Präsentationen, Entspannung oder kreative Displays. Verwandeln Sie Ihren Bildschirm in eine immersive visuelle Leinwand und genießen Sie ein ruhiges und lebendiges visuelles Erlebnis.",
+      "keywords": "Aurora-Theme, Starfield-Hintergrund, Tiefes-Meer-Theme, dynamischer Hintergrund, visuelles Design, immersiver Hintergrund, ruhiger Bildschirm, Digitalkunst-Theme, Vollbild-Theme, BlackScreen Theme-Sammlung, dynamische Visuals, kreativer Hintergrund, Umgebungsbildschirm"
+    },
+    "ScreenTester": {
+      "title": "Kostenloses Bildschirm-Test-Tool: Schnelle Erkennung von toten Pixeln, hellen Flecken & Lichtleckage | BlackScreen",
+      "description": "Professionelles Bildschirm-Test-Tool zur Erkennung von toten Pixeln, hellen Flecken, Lichtleckage und Helligkeitsgleichmäßigkeit auf Monitoren, Fernsehern und Laptop-Bildschirmen. Unterstützt mehrere Testmuster und Vollbildanzeige für schnelle Bildschirmqualitätsbewertung. Keine Installation erforderlich, perfekt für tägliche Überprüfungen und Bildschirminspektion.",
+      "keywords": "kostenloser Bildschirmtest, Online-Erkennung toter Pixel, Erkennung heller Flecken, Lichtleckage-Erkennung, TV-Test-Tool, Laptop-Bildschirmtest, Online-Monitor-Test, Handy-Bildschirmtest, Bildschirmtest-Webseite, BlackScreen, Pixelerkennung, OLED-Test, LCD-Test, Pixelinspektion"
+    },
+    "CustomThemes": {
+      "title": "Individuelles Theme-Ersteller - BlackScreen | Bilder hochladen & Markenanzeige",
+      "description": "Laden Sie Ihr Logo, Produktfotos oder persönliche Werke hoch, um exklusive Vollbild-Themes zu erstellen. Unterstützt individuelle Farben und Bilduploads, Ein-Klick-Vollbildanzeige. Perfekt für Markenpräsentationen, Produktpräsentationen, kreative Projekte und Unternehmensdisplays. Kostenlos, werbefrei, unbegrenzte Kreativität.",
+      "keywords": "Bilder hochladen, individuelles Theme, Markenanzeige, Produktfotografie-Hintergrund, Unternehmenspräsentations-Tool, Logo-Hintergrund, Vollbild-Ersteller, personalisierter Hintergrund, Marken-Visual, Produktpräsentations-Hintergrund, individueller Hintergrund, kreatives Tool, BlackScreen, personalisiertes Display"
+    },
+    "About": {
+      "title": "Über BlackScreen: Die Vision hinter dem minimalistischen Bildschirm-Tool",
+      "description": "Lernen Sie das Team und die Geschichte hinter BlackScreen kennen – wir entwickeln ablenkungsfreie Tools für Fokus, Bildschirmschutz und bessere digitale Erlebnisse. Kein Überfluss, nur Klarheit.",
+      "keywords": "über BlackScreen, Team-Geschichte, Bildschirm-Utility, digitale Klarheit, Tool für Fokus, Vollbild-Erlebnis, Produktvision, Minimalismus, Bildschirm-Einfachheit"
+    },
+    "Articles": {
+      "title": "BlackScreen Anleitungen: Schwarzbildprobleme beheben & Effizienz steigern",
+      "description": "Erhalten Sie praktische Anleitungen und Lösungen für Schwarzbildprobleme. Lernen Sie Produktivitätstipps und Bildschirm-Tool-Tricks für besseren digitalen Fokus.",
+      "keywords": "Schwarzbild beheben, Anleitung, Bildschirm-Fehlerbehebung, Windows Schwarzbild, Produktivitäts-Hacks, Effizienz, BlackScreen-Tipps, Tutorial"
+    },
+    "BlogPost": {
+      "title": "{title} | BlackScreen Anleitungen & Lösungen",
+      "description": "Entdecken Sie den vollständigen Leitfaden zu {title} mit umsetzbaren Schritten und praktischen Einblicken. Ein klügerer Weg, bildschirmbezogene Herausforderungen zu lösen.",
+      "keywords": "blackscreen Tutorial, {slug}, Bildschirm-Fix-Anleitung, Produktivitätstricks, Anleitungsartikel, Digital-Tool-Tipps"
+    }
+  }
+}

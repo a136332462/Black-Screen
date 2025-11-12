@@ -1,0 +1,44 @@
+{
+  "SEO": {
+    "Home": {
+      "title": "BlackScreen: Free Online Fullscreen Tool - for Focus, OLED & Presentations",
+      "description": "BlackScreen is a free, ad-free fullscreen tool for focus, OLED screen protection, clean presentations. Easy to use, supports 8K high-resolution downloads, works online and offline, perfectly optimizing your screen experience.",
+      "keywords": "black screen tool, fullscreen presentation, eye care mode, OLED protection, power saving tool, online black screen, free tool, screen management, ad-free tool, one-click fullscreen, BlackScreen, presentation screen"
+    },
+    "ClockThemes": {
+      "title": "12 Clock Themes: Digital, Binary & Wave Clocks | BlackScreen",
+      "description": "Discover beautiful fullscreen clock themes including digital clocks, binary clocks, and wave clocks. Perfect for focused work, presentations, or ambient screens. One-click fullscreen launch, ad-free experience, enhancing work efficiency and visual enjoyment.",
+      "keywords": "fullscreen clock, digital clock, binary clock, wave clock, focus timer, presentation screen, productivity tool, ambient display, time display tool, BlackScreen clock, work timer, fullscreen timer"
+    },
+    "CoolThemes": {
+      "title": "12 Dynamic Visual Themes: Aurora, Starfield & Deep Ocean | BlackScreen",
+      "description": "Experience 12 carefully designed dynamic visual themes including Aurora skies, deep ocean worlds, and starfield universes. One-click fullscreen, ad-free experience, perfect for presentations, relaxation, or creative displays. Transform your screen into an immersive visual canvas, enjoying a calm and vibrant visual experience.",
+      "keywords": "aurora theme, starfield background, deep ocean theme, dynamic background, visual design, immersive background, calm screen, digital art theme, fullscreen theme, BlackScreen theme collection, dynamic visuals, creative background, ambient screen"
+    },
+    "ScreenTester": {
+      "title": "Free Screen Test Tool: Quick Detection of Dead Pixels, Bright Spots & Light Leakage | BlackScreen",
+      "description": "Professional screen testing tool to help you detect dead pixels, bright spots, light leakage, and brightness uniformity on monitors, TVs, and laptop screens. Supports multiple test patterns and fullscreen display for quick screen quality assessment. No installation required, perfect for daily checks and screen inspection.",
+      "keywords": "free screen test, online dead pixel detection, bright spot detection, light leakage detection, TV test tool, laptop screen test, online monitor test, phone screen test, screen test webpage, BlackScreen, pixel detection, OLED test, LCD test, pixel inspection"
+    },
+    "CustomThemes": {
+      "title": "Custom Theme Creator - BlackScreen | Upload Images & Brand Display",
+      "description": "Upload your Logo, product photos, or personal works to create exclusive fullscreen themes. Supports custom colors and image uploads, one-click fullscreen display. Perfect for brand presentations, product showcases, creative projects, and corporate displays. Free, ad-free, unlimited creativity.",
+      "keywords": "upload images, custom theme, brand display, product photography background, corporate presentation tool, logo background, fullscreen creator, personalized background, brand visual, product showcase background, custom background, creative tool, BlackScreen, personalized display"
+    },
+    "About": {
+      "title": "About BlackScreen: The Vision Behind the Minimalist Screen Tool",
+      "description": "Meet the team and story behind BlackScreen—building distraction-free tools for focus, screen protection, and better digital experiences. No clutter, just clarity.",
+      "keywords": "about BlackScreen, team story, screen utility, digital clarity, tool for focus, fullscreen experience, product vision, minimalism, screen simplicity"
+    },
+    "Articles": {
+      "title": "BlackScreen Guides: Fix Black Screen Issues & Boost Efficiency",
+      "description": "Get practical how-to guides and fixes for black screen problems. Learn productivity tips and screen tool tricks for better digital focus.",
+      "keywords": "black screen fix, how-to guide, screen troubleshooting, Windows black screen, productivity hacks, efficiency, BlackScreen tips, tutorial"
+    },
+    "BlogPost": {
+      "title": "{title} | BlackScreen Guides & Fixes",
+      "description": "Explore the complete guide to {title} with actionable steps and practical insights. A smarter way to solve screen-related challenges.",
+      "keywords": "blackscreen tutorial, {slug}, screen fix guide, productivity tricks, how-to article, digital tool tips"
+    }
+  }
+}
