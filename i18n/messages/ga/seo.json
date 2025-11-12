@@ -30,59 +30,15 @@
       "description": "Buaileadh leis an bhfoireann agus an scéal taobh thiar de BlackScreen—ag tógáil uirlisí gan chur isteach le haghaidh díriú, cosaint scáileán, agus eispéiris dhigiteacha níos fearr. Gan mórán, ach soiléireacht.",
       "keywords": "faoi BlackScreen, scéal foirne, fóntas scáileán, soiléireacht dhigiteach, uirlis le haghaidh díriú, eispéireas lánscáileán, fís táirge, mionmach, simplíocht scáileán"
     },
-    "PrivacyPolicy": {
-      "title": "Polasaí Príobháideachta - Conas a Láimhseálann BlackScreen do Chuid Sonraí go Cúramach",
-      "description": "Luachálann BlackScreen do phríobháideachta. Ní úsáidimid aon rianaíocht, stórálaimid sonraí go háitiúil, agus fanaimid comhréireach le GDPR agus CCPA. Tá d'úsáid phríobháideach agus sábhailte.",
-      "keywords": "polasaí príobháideachta, GDPR, CCPA, sonraí úsáideora, stóráil áitiúil, príobháideachta ar líne, trédhearcacht sonraí, BlackScreen, gan rianaíocht, uirlis scáileán slán"
-    },
-    "TermsOfService": {
-      "title": "Téarmaí Seirbhíse - Rialacha Úsáide BlackScreen & Freagrachtaí Úsáideora",
-      "description": "Athbhreithnigh ár dtéarmaí seirbhíse chun do chearta, treoirlínte ábhair, agus conas a chinntíonn BlackScreen úsáid chothrom, shábhailte, agus dhlíthiúil d'ár ardán a thuiscint.",
-      "keywords": "téarmaí seirbhíse, comhaontú úsáideora, rialacha ardáin, téarmaí dlíthiúla, úsáid chothrom, treoirlínte ábhair, téarmaí uirlis scáileán, BlackScreen, cearta úsáideora"
-    },
     "Articles": {
       "title": "Treoracha BlackScreen: Réitigh Fadhbanna Scáileán Dubh & Méadaigh Éifeachtúlacht",
       "description": "Faigh treoracha praiticiúla conas agus réitigh le haghaidh fadhbanna scáileán dubh. Foghlaim leideanna tairbheachta agus cleasanna uirlis scáileán le haghaidh díriú dhigiteach níos fearr.",
       "keywords": "réiteach scáileán dubh, treoir conas, fabhtcheartú scáileán, scáileán dubh Windows, cleasanna tairbheachta, éifeachtúlacht, leideanna BlackScreen, teagasc"
     },
-    "Tags": {
-      "title": "Brabhsáil Ábhair BlackScreen: Uirlisí Scáileán, Réitigh & Tairbheacht",
-      "description": "Brabhsáil de réir clibeanna chun ailt a fhiosrú ar uirlisí scáileán, réitigh, agus leideanna tairbheachta. Faigh réitigh níos tapúla de réir ábhair le clibeanna eagraithe BlackScreen.",
-      "keywords": "brabhsálaí clib, ábhair scáileán, leideanna tairbheachta, fabhtcheartú, uirlisí scáileán, ábhar a eagrú, réiteach Windows, innéacs teagaisc, BlackScreen"
-    },
     "BlogPost": {
       "title": "{title} | Treoracha & Réitigh BlackScreen",
       "description": "Fiosraigh an treoir iomlán ar {title} le céimeanna gníomhacha agus léargais phraiticiúla. Bealach níos cliste chun dúshláin bhainteach le scáileán a réiteach.",
       "keywords": "teagasc blackscreen, {slug}, treoir réiteach scáileán, cleasanna tairbheachta, alt conas, leideanna uirlis dhigiteach"
-    },
-    "TagPage": {
-      "title": "Leideanna & Treoracha {tag} - BlackScreen ({count} Ailt)",
-      "description": "Brabhsáil {count} treoir úsáideach {tag} ó BlackScreen. Máistreáil uirlisí scáileán, méadaigh éifeachtúlacht, agus réitigh fadhbanna go héasca de réir ábhair.",
-      "keywords": [
-        "leideanna {tag}",
-        "treoracha {tag}",
-        "réitigh {tag}",
-        "BlackScreen {tag}",
-        "cabhair {tag}",
-        "alt {tag}",
-        "tairbheacht {tag}",
-        "fabhtcheartú {tag}"
-      ]
-    },
-    "Unsubscribe": {
-      "title": "Díliostáil ó Nuashonruithe BlackScreen",
-      "description": "Bainistigh do roghanna ríomhphoist nó díliostáil ó nuachtlitir BlackScreen. Bí i gceannas ar do bhosca isteach ag am ar bith.",
-      "keywords": "díliostáil, socruithe ríomhphoist, stop nuachtlitir, suíomh BlackScreen, roghanna ríomhphoist, liosta poist"
-    },
-    "Pricing": {
-      "title": "Praghsáil BlackScreen: Íocaíocht Aon-Uair le haghaidh Gnéithe Pro Saoil",
-      "description": "Praghsáil simplí le híocaíocht aon-uair agus nuashonruithe saoil. Díchódáil gnéithe lánscáileán préimhe gan costas athfhillteach. Trédhearcach, cothrom, agus todhchaí-dhaingean.",
-      "keywords": "praghsáil BlackScreen, íocaíocht aon-uair, rochtain saoil, téamanna préimhe, plean uasghrádaithe, gnéithe iomlána, gan suíomh, uirlis scáileán"
-    },
-    "NotFound": {
-      "title": "404 - Leathanach Gan Aimsiú | BlackScreen",
-      "description": "Níl an leathanach a chuardachann tú ann nó bogadh é. Fill ar leathanach baile BlackScreen chun uirlisí lánscáileán agus téamanna a fhiosrú.",
-      "keywords": "earráid 404, leathanach gan aimsiú, BlackScreen, leathanach ar iarraidh"
     }
   }
 }
